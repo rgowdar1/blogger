@@ -1,10 +1,9 @@
 import React from 'react'
-//import axios from 'axios'
 import {connect} from 'react-redux'
 import social3 from './images/social3.png'
 import {Link} from 'react-router-dom'
 import {startSetUser} from '../src/actions/singleUser'
-import {Button} from 'react-bootstrapgit '
+import {Button} from 'react-bootstrap'
 
 
 class ShowPost extends React.Component {

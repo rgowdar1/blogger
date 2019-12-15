@@ -1,11 +1,11 @@
 import React from 'react'
-//import axios from 'axios'
 import {Link} from 'react-router-dom'
 import {connect} from 'react-redux'
 import {Badge,Card,Button} from 'react-bootstrap'
 
 class Users extends React.Component {
     render() {
+        console.log(this.props.users)
         return (
             <div style={{backgroundColor:'#C4EDDE'}}>
                 <div className="row">
